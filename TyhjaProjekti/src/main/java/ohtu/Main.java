@@ -21,6 +21,7 @@ public class Main {
         
         System.out.println("Course: Ohjelmistotuotanto, spring 2017");
         System.out.println("student number: " + studentNr);
+        
         int tasks = 0, hours = 0;
         for (Submission submission : subs) {
             System.out.println(submission);
