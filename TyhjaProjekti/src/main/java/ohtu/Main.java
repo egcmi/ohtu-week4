@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         // Replace your student to the next, however, DO NOT put your own student number on GitHub
-        String studentNr = "014773271";
+        String studentNr = "";
         if ( args.length>0) {
             studentNr = args[0];
         }
@@ -21,7 +21,7 @@ public class Main {
         
         System.out.println("Course: Ohjelmistotuotanto, spring 2017");
         System.out.println("student number: " + studentNr);
-        
+
         int tasks = 0, hours = 0;
         for (Submission submission : subs) {
             System.out.println(submission);
