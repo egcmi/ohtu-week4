@@ -13,4 +13,4 @@ Scenario: user can not login with incorrect password
 Scenario: nonexistent user cannot login
     Given login is selected
     When username "antti" and password "antti" are given
-    Then system will respond "invalid username or password"
+    Then user is not logged in and error message is given
